@@ -1,0 +1,2 @@
+Pls create a folder named 'Images' before ya enter in to the website.
+Drag all the .png images to the folder.
