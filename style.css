@@ -1,0 +1,85 @@
+/*Styling be nice!*/
+
+body{
+    background-color: purple;
+    font-family: Verdana;
+    color: white;
+}
+
+h1{
+    width: 100%;
+}
+
+#inputUser{
+    text-align: left;
+    margin-left: 26em;
+    width: 15%;
+    margin-top: 5em;
+    padding: 6px;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+
+/* h5{
+    background-color: white;
+} */ /*Don't activate this!*/
+
+.computerOutput{
+    margin-left: 66em;
+    margin-top: -2em;
+}
+
+
+.numbers{
+    margin-left: 36em;
+    margin-top: 4.5em;
+    justify-content: space-around;
+    background:none;
+}
+
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #zero{
+    padding: 5px;
+    width: 5em;
+    border-radius: 7px;
+    margin-top: 35px;
+    margin-left: 24px;
+    background:none;
+    color:white;
+    border: 5px solid white;
+    transition: 0.2s all linear;
+    cursor: pointer;
+}
+
+#zero{
+    margin-left: 9em;
+}
+
+.symbols{
+    margin-left: 33em;
+    margin-top: 4.5em;
+    justify-content: space-around;
+}
+
+#plus, #minus, #multiply, #divide, #equalTo, #clear{
+    padding: 5px;
+    width: 5em;
+    border-radius: 7px;
+    margin-top: -15px;
+    margin-left: 10px;
+    background:none;
+    color:white;
+    border: 5px solid white;
+    cursor: pointer;
+    transition: 0.2s all linear;
+}
+
+#plus:hover, #minus:hover, #multiply:hover, #divide:hover, #equalTo:hover, #clear:hover{
+    background: linear-gradient(to left, dodgerblue, rgb(7, 220, 99));
+    border: 4.5px solid rgb(255, 30, 90);
+}
+
+
+#one:hover, #two:hover, #three:hover, #four:hover, #five:hover, #six:hover, #seven:hover, #eight:hover, #nine:hover, #zero:hover{
+    background: linear-gradient(to right, dodgerblue, rgb(7, 220, 160));
+    border: 4.5px solid rgb(248, 0, 99);
+}

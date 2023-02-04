@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="" type="image/x-icon" id="favicon">
+    <script src="script.js" async></script>
+    <title>Calculator</title>
+</head>
+<body onload="randomChangeIcon()">
+    <div class="container">
+        <marquee behavior="alternate" direction="right" scrollamount="25s"><h1>Calculator</h1></marquee>
+        <div class="user">
+            <input type="text" placeholder="Type your number" id="inputUser">
+        </div>
+
+        <div class="computerOutput">
+           <b> 
+                Answer: <span class="output">---</span>
+            </b>
+        </div>
+
+        <div class="numbers">
+            <div class="group1">
+                <button id="one">1</button>
+                <button id="two">2</button>
+                <button id="three">3</button>
+            </div>
+            <div class="group2">
+                <button id="four">4</button>
+                <button id="five">5</button>
+                <button id="six">6</button>
+            </div>
+            <div class="group3">
+                <button id="seven">7</button>
+                <button id="eight">8</button>
+                <button id="nine">9</button>
+            </div>
+            <button id="zero">0</button>
+        </div>
+
+        <div class="symbols">
+            <button id="plus">+</button>
+            <button id="minus">-</button>
+            <button id="multiply">*</button>
+            <button id="divide">/</button>
+            <button id="equalTo">=</button>
+            <button id="clear">AC</button>
+        </div>
+    </div>
+</body>
+</html>
